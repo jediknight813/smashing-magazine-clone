@@ -1,0 +1,30 @@
+.Nav_Container {
+    width: 95%;
+    right: 2.5%;
+    position: absolute;
+    top: 11%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Nav_Container button{
+    height: 50%;
+    font-family: "Varela Round";
+    font-weight: 700;
+    font-size: 18px;
+    color: #d33a2c!important;
+    background-color: #ffe7e7;
+    border-radius: 10px;
+    border: 0.1px solid rgba(135, 135, 135, 0.297);
+    cursor: pointer;
+}
+
+.Nav_Container button:hover{
+    height: 52%;
+    border: 0.1px solid #d33a2c;
+    transition: linear 0.24s border;
+    text-align: center;
+}

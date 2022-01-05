@@ -15,14 +15,71 @@
     margin-left: 2.4%;
 }
 
+.header_buttons {
+    display: flex;
+    width: 70%;
+    height: 25%;
+    gap: 29px;
+    margin-left: 2.5%;
+}
+
 .header_buttons button {
     font-family: "Varela Round";
     color: white;
     background-color: hsl(5, 65%, 50%);
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 23px;
     text-shadow: 0px 0px 1px rgb(0 0 0 / 49%);
     cursor: pointer;
     font-weight: 700;
+}
+
+.header_buttons button:hover{
+    background-color: hsl(5, 70%, 40%);
+    transition: linear 0.24s background;
+    height: 200%;
+    border-radius: 10px;
+    margin-top: -11px;
+
+}
+
+
+.more_button {
+    font-family: "Varela Round";
+    width: 10%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 7px -15px, rgb(0 0 0 / 30%) 0px 8px 16px -8px, rgb(0 0 0 / 2%) 0px -6px 16px -6px;
+}
+
+
+
+.Header_Search {
+    background-color: rgb(247, 247, 247);
+    font-family: "Varela Round";
+    width: 80%;
+    font-weight: 700;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 7px -15px, rgb(0 0 0 / 30%) 0px 8px 16px -8px, rgb(0 0 0 / 2%) 0px -6px 16px -6px;
+}
+
+.header_search_image {
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 65%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 7px -15px, rgb(0 0 0 / 30%) 0px 8px 16px -8px, rgb(0 0 0 / 2%) 0px -6px 16px -6px;
+}
+
+.site_container {
+    display: flex;
+    flex-direction: column;
 }

@@ -1,0 +1,254 @@
+.Content_Container {
+    width: 100%;
+    position: absolute;
+    height: 200%;
+    top: 19%;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.283);
+    background-color: rgba(193, 193, 193, 0.29);
+    left: 0%;
+}
+
+.post_and_email_container {
+    top: 4%;
+    width: 85%;
+    height: 49%;
+    right: 7.5%;
+    position: absolute;
+    display: flex;
+}
+
+.post_and_email_container_articles {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_and_email_container_email_signup {
+    width: 30%;
+    height: 100%;
+}
+
+.article_one_container {
+    width: 78%;
+    height: 46%;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_one_container_top {
+    width: 100%;
+    height: 54%;
+    display: flex;
+    gap: 35px;
+}
+
+.animated_image {
+    border-radius: 10px;
+    border: 6px solid hsl(5, 65%, 50%);
+    width: 29%;
+    height: 50%;
+    margin-left: 22px;
+    margin-top: 45px;
+    transition: linear 0.2s;
+    transform: matrix(1.17795, 0.228971, -0.228971, 1.17795, 0, 0) rotateZ(calc(-22 * 1deg));
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.454) 0px 13px 7px -15px, rgb(0 0 0 / 50%) 0px 8px 16px -8px, rgb(0 0 0 / 10%) 0px -10px 120px -10px;
+}
+
+.animated_image:hover {
+    transform: matrix(1.17795, 0.228971, -0.228971, 1.17795, 0, 0) rotateZ(calc(-11 * 1deg));
+}
+
+.article_one_continue_a_tag {
+    color: hsl(5, 65%, 50%);
+    font-family: "Varela Round";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.animated_image_header {
+    font-family: "Varela Round";
+    display: flex;
+    flex-direction: column;
+}
+
+.animated_image_header h1 {
+    font-size: 48px;
+    margin-top: -15px;
+}
+.animated_image_header h4 {
+    margin-top: 0px;
+    font-size: 18px;
+    font-family:'Open Sans' , sans-serif;
+    font-weight: 100;
+    color: rgb(69, 63, 63);
+}
+
+.animated_image_header h4 a {
+    color: hsl(5, 65%, 50%);
+    font-family: "Varela Round";
+}
+
+.animated_image_header h3{
+    margin-top: -22px;
+    font-family:'Open Sans' , sans-serif;
+    font-weight: 100;
+    color: rgb(41, 37, 37);
+    font-size: 18px;
+    
+}
+
+.animated_image_header h3 a {
+    font-weight: 300;
+    color: rgb(69, 63, 63);
+}
+
+.article_one_container p{
+    font-size: 21px;
+    line-height: 34px;
+    font-family: "Elena";
+    color: rgba(0, 0, 0, 0.673);
+}
+
+
+.small_article {
+    margin-top: 2.5%;
+    width: 78%;
+    height: 20%;
+    display: flex;
+}
+
+.small_article_image_animated {
+    border-radius: 10px;
+    border: 6px solid hsl(5, 65%, 50%);
+    width: 12%;
+    height: 52%;
+    margin-left: 22px;
+    margin-top: 45px;
+    transition: linear 0.2s;
+    transform: matrix(1.17795, 0.228971, -0.228971, 1.17795, 0, 0) rotateZ(calc(-22 * 1deg));
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.454) 0px 13px 7px -15px, rgb(0 0 0 / 50%) 0px 8px 16px -8px, rgb(0 0 0 / 10%) 0px -10px 120px -10px;
+}
+
+.small_article_image_animated:hover {
+    transform: matrix(1.17795, 0.228971, -0.228971, 1.17795, 0, 0) rotateZ(calc(-11 * 1deg));
+}
+
+.small_article_info_container {
+    margin-left: 28px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.small_article_info_container h1{
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 35px;
+}
+
+.small_article_info_container h2{
+    font-family: "Varela Round";
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.small_article_info_container a{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.639);
+}
+
+.get_email_container {
+    margin-top: 20%;
+    width: 100%;
+    height: 70%;
+    background-color: #e7f8ff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email_cat_image {
+    position: absolute;
+    width: 20%;
+    right: 4.5%;
+    top: -3.5%;
+    height: 25%;
+}
+
+.get_email_container h1 {
+    font-family: "Varela Round";
+    margin-left: 7%;
+    font-size: 29px;
+}
+
+.get_email_container h2 {
+    font-size: 20px;
+    margin-left: 8%;
+    margin-right: 3%;
+    font-family: "Varela Round";
+    color: rgb(69, 63, 63);
+}
+
+.get_email_container a {
+    color: #0168b8;
+}
+
+
+.email_newsletter_button {
+    font-family: "Architects Daughter";
+    font-weight: 700;
+    margin-left: 20%;
+    margin-top: 29%;
+    color: hsl(5, 65%, 50%);
+    background-color: white;
+    width: 65%;
+    height: 10%;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.email_input_and_button button {
+    background-color: #0168b8;
+    font-family: "Varela Round";
+    border: none;
+    color: white;
+    height: 270%;
+    font-size: 18px;
+    width: 20%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 7px -15px, rgb(0 0 0 / 30%) 0px 8px 16px -8px, rgb(0 0 0 / 2%) 0px -6px 16px -6px;
+}
+
+
+.email_input_and_button input{
+    height: 260%;
+    margin-left: 9%;
+    font-size: 23px;
+    font-family: "Varela Round";
+    width: 60%;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 7px -15px, rgb(0 0 0 / 30%) 0px 8px 16px -8px, rgb(0 0 0 / 2%) 0px -6px 16px -6px;
+}
+
+.get_email_container h4 {
+    font-size: 15px;
+    font-family: "Varela Round";
+    color: rgba(0, 0, 0, 0.523);
+    margin-top: 18%;
+    margin-left: 12%;
+}
+
+.get_email_container h4 a{
+    color: rgba(0, 0, 0, 0.523);
+}
