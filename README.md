@@ -2,7 +2,7 @@ a clone of the smashing magazine website made for the odin project.
 
 a link to the odin project: https://www.theodinproject.com/
 
-a link to to the website i made: 
+a link to to the website i made: https://jediknight813.github.io/smashing-magazine-clone/
 
  a link to the website i copied using react and css: https://www.smashingmagazine.com/#top
  
