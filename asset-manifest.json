@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smashing-magazine-clone/static/css/main.f49e15b0.css",
+    "main.js": "/smashing-magazine-clone/static/js/main.2d85e2fb.js",
+    "index.html": "/smashing-magazine-clone/index.html",
+    "main.f49e15b0.css.map": "/smashing-magazine-clone/static/css/main.f49e15b0.css.map",
+    "main.2d85e2fb.js.map": "/smashing-magazine-clone/static/js/main.2d85e2fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f49e15b0.css",
+    "static/js/main.2d85e2fb.js"
+  ]
+}
