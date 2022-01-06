@@ -82,6 +82,101 @@ function Content() {
             </div>
 
 
+
+            <div className="helpful_training_articles_container">
+
+                <div style={{backgroundColor: "##f1fdf8"}} className="helpful_article">
+                    <a href=" "> Accessible Front-End Components </a>
+                    <p> Reliable accessible UI components: :focus styles, modals, date pickers, navigation, tables, buttons, SVGs. </p>
+                    <button>Explore Accessible Components</button>
+                </div>
+
+                <div style={{backgroundColor: "#fef1f0"}} className="helpful_article">
+                    <a style={{color: "#f55700"}} href=" "> CSS Generators & Tools </a>
+                    <p> Useful CSS tools for animations, shadows, cubic-bezier curves, easing gradients, filters, overlays, type scales. </p>
+                    <button style={{backgroundColor: "#f55700"}}>Explore CSS Generators</button>
+                </div>
+
+
+                <div style={{backgroundColor: "#fbecf9"}} className="helpful_article">
+                    <a style={{color: "#aa1994"}} href=" "> Front-End Boilerplates & Starter Kits </a>
+                    <p> HTML boilerplates, CSS resets, forms, dev themes, gitignore, CSS snippets, static sites, style guides. </p>
+                    <button style={{backgroundColor: "#aa1994"}}>Explore Front-End Boilerplates </button>
+                </div>
+            </div>
+
+            <a className="see_all_guides_link" href=" ">SEE ALL GUIDES →</a>
+
+
+            <div style={{ backgroundColor: "rgba(223, 223, 223, 0.29)" ,width: "100%", height: "50%", top: "100%", position: "absolute", display: "flex", alignItems: "center", justifyContent : "center"}}>
+
+                <div className="post_container">
+
+
+                    <div className="user_post">
+                        <img className="user_post_pic" alt="user_pic" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/796c8f02-34e8-46f1-bf0a-09e0e10a7100/paulboag-200x200.jpg"/>
+                        
+                        <div>
+                            <h1> <a href=" "> Paul Boag </a> wrote </h1>
+                            <h2> How To Price Projects And Manage Scope Creep </h2>
+                            <h3> Scoping, estimating, and running digital projects can often feel like an exercise in futility. In this article, Paul Boag explains why you need to start breaking your projects down into manageable phases and why that's the best way to achieve significant benefits. </h3>
+                            <h4> december 29, 2021 in <a href=" ">Business</a>, <a href=" ">Workflow</a>, <a href=" ">Communication</a> </h4>
+                        </div>
+
+                    </div>
+
+
+                    <div className="user_post">
+                        <img className="user_post_pic" alt="user_pic" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/373258fb-cd93-4a4c-b66e-5b67c8e01159/paulina-hetman-200x200.jpg"/>
+                        
+                        <div>
+                            <h1> <a href=" "> Paulina Hetman </a> wrote </h1>
+                            <h2> Building Gatsby Themes For WordPress-Powered Websites </h2>
+                            <h3> Have you already built and published a Gatsby theme? In this article, Paulina Hetman explains how Gatsby themes work and what problems they can solve by comparing Gatsby themes with their WordPress counterparts. </h3>
+                            <h4> december 27, 2021 in <a href=" ">Ui</a>, <a href=" ">Tools</a>, <a href=" ">Gatsby</a> </h4>
+                        </div>
+
+                    </div>
+
+
+                    <div className="user_post">
+                        <img className="user_post_pic" alt="user_pic" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/815de946-7f42-4c5e-a44e-bbb350c26375/alyssa-holland-200x200.jpeg"/>
+                        
+                        <div>
+                            <h1> <a href=" "> Alyssa Holland </a> wrote </h1>
+                            <h2> Creating A Custom Range Input That Looks Consistent Across All Browsers </h2>
+                            <h3> Range inputs have notoriously been a pain to style. Each browser renders the input differently requiring you to use vendor prefixes in order to create a cohesive look and feel. In this article, we’ll take a look at the quirkiness of the HTML range input and demonstrate how to style the input to look consistent across all major browsers. </h3>
+                            <h4> december 23, 2021 in <a href=" ">HTML</a>, <a href=" ">CSS</a>, <a href=" ">Browsers</a> </h4>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div className="user_post">
+                        <img className="user_post_pic" alt="user_pic" src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/27cf2125-1ccc-4a49-9fbd-62b297a721c3/cosima-mielke-200px.png"/>
+                        
+                        <div>
+                            <h1> <a href=" "> Cosima Mielke  </a> wrote </h1>
+                            <h2> Useful UX Guidelines, Tools And Resources </h2>
+                            <h3> A meaningful user experience is what can set your site apart from others. But what makes an experience truly meaningful? And how to achieve that? The tools, tips, and resources in this post not only help you to come up with a UX strategy that works for you and your team but also to circumvent potential UX pitfalls. </h3>
+                            <h4> december 22, 2021 in <a href=" ">Tools</a>, <a href=" ">UX</a>, <a href=" ">Resources</a> </h4>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                    
+
+            </div>
+
+
         </div>
     )
 }
